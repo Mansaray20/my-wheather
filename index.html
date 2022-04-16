@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link 
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/css/style.css"
+    />
+    <title>DashBoard</title>
+</head>
+<body>
+    <header class="sticky-top">
+        <h1 class="text-center">My Dashboard</h1>
+    </header>
+
+    <main class="container-fluid">
+        <div class="row flex">
+            <div class="col-xs-12 col-xl-3" id="search">
+                <form id="textlines" class="col-12">
+                    <h3 class="col-12">Choose Any Location:</h3>
+                    <input type="text" name="searchInput" id="searchInput" class="col-12" placeholder="Type location ex: Columbus, OH" />
+                    <button type="submit" id="searchButton" class="col-12">Search</button>
+                </form>
+                <form class="col-xs-12 col-xl-3" id="notes"></form>
+            </div>
+            <div id="display" class="col-xs-12 col-xl-9">
+            </div>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="m.js"></script>
+</body>
+</html>
